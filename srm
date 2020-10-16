@@ -1,3 +1,10 @@
+#!/bin/bash
 if ! [ -d ~/RECYCLE ]
 then mkdir ~/RECYCLE
 fi
+
+find ~/RECYCLE -mtime +7 -delete
+
+tar -cvzf ~/RECYCLE/$1.tgz $1
+
+rm -R $1 
