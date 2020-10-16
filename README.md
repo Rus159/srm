@@ -1,2 +1,2 @@
 # srm
-bash script that does not immediately delete files, but first moves them to trash
+bash script, котрый не сразу удаляет файл, а сначала перемещает его в корзину.
