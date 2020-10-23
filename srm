@@ -11,5 +11,5 @@ tar -cvzf ~/RECYCLE/$1.tgz $1
 
 rm -R $1
 
-else echo 'Такого файла не существует'
+else echo 'No such file exists'
 fi
